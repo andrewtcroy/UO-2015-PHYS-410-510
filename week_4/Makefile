@@ -1,16 +1,6 @@
-#
-# this is a comment
+#a makefile creates the necessary files
 
-#
-# define environment variables (compilers/linker/libraries...)
-CC = ipython
-FC = ifort
-FFLAGS = -c
-LIBS =
++all: hello.txt
 
-#
-# define targets
-
-all:
-	$(CC) hello.py
-
+hello.txt: hello.py
+ 	ipython hello.py
