@@ -3,4 +3,7 @@
 all: hello.txt
 
 hello.txt: hello.py
-	ipython hello.py
+	python hello.py
+
+clean:
+	rm-f hello.txt
