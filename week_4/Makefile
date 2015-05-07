@@ -3,4 +3,4 @@
 +all: hello.txt
 
 hello.txt: hello.py
- 	ipython hello.py
+	ipython hello.py
