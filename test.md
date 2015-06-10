@@ -1,2 +1,6 @@
-![logo] (~/desktop/410/chimp.jpg)
-Format: ![Alt Text](url)
+*Item 1
+*Item 2
+
+1. dog
+2. cat
+3. flower
